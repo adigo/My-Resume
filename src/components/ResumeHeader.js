@@ -7,6 +7,7 @@ import Alert from '@material-ui/lab/Alert';
 import PhoneIcon from '@material-ui/icons/Phone';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './ResumeHeader.css';
+import ReactGA from 'react-ga';
 
 export default function ResumeHeader() {
   const [openSnackbar, setOpenSnackbar] = useState(false);
@@ -42,6 +43,10 @@ export default function ResumeHeader() {
   );
 
   function handleItemClicked(content) {
+    ReactGA.event({
+      category: 'Action',
+      action: 'Copy email'
+    })
     navigator.clipboard.writeText(content)
         .then(() => {
           setOpenSnackbar(true);
@@ -50,6 +55,10 @@ export default function ResumeHeader() {
   }
 
   function openLink(link) {
+    ReactGA.event({
+      category: 'Action',
+      action: 'Access Github',
+    })
     window.open(link);
   }
 

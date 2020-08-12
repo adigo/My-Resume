@@ -2,7 +2,7 @@ export const resumeContent = {
   name: "王大力",
   title: "Software Engineer",
   location: "Bay Area",
-  selfIntroduction: "假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述假装自己写了很多描述",
+  selfIntroduction: "Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.Fake descriptions.",
   email: "shangan.xiaoyugan@gmail.com",
   phone: "123-456-7890",
   githubUsername: "dummyUser",
